@@ -46,6 +46,10 @@ input.border {
     min-height: 40vh;
 }
 
+.section__height--short {
+    min-height: 35vh;
+}
+
 .section__text {
     font-size: 20px;
 }
@@ -198,6 +202,8 @@ button {
 .noPad {
     padding: 0 !important;
 }
+
+
 
 .dot {
     width: 15px;
@@ -559,7 +565,51 @@ textarea {
     text-decoration: none;
 }
 
+/***payment**/
+.payment_holder{
+    min-height: 100vh;
+}
 
+.payment {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #00000029;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.payment__inner{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.payment__innerPrice {
+    text-align: right;
+}
+
+.nav-link{
+    color: #000;
+}
+
+.nav-link.active {
+    border: none !important;
+    border-bottom: 2px solid #44A4F7 !important;
+    color: #44A4F7 !important;
+}
+
+.method__formHolder form{
+    margin: 0;
+}
+
+ 
+.form_element input{
+      border: 1px solid var(--bg_gray);
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    width: 90%;
+    background: transparent;
+}
 
 
 
@@ -1105,7 +1155,7 @@ div.mt-3 button {
     padding: 1.5em;
 }
 
-#withdraw  {
+#withdraw {
     width: 55%;
     margin: 0 auto;
 }
